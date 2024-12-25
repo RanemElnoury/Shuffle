@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Scss/main.css">
+    <title>Shuffle Template</title>
+</head>
+
+<body class="bg-light">
+    <header class="fixed-top">
+        <div class="navbar navbar-expand-lg container ">
+            <div class="container-fluid d-flex justify-content-between">
+                <a class="navbar-brand" href="#">Shuffle</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="active me-1 nav-link px-3 py-2" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-1 px-3 py-2" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-1 px-3 py-2" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-1 px-3 py-2" href="#portoflio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-1 px-3 py-2" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle  me-1 px-3 py-2" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu rounded-0 border-0">
+                                <li><a class="dropdown-item py-2" href="#">Dropdown 1</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle py-2" href="#">Deep Dropdown</a>
+                                    <ul class="dropdown-menu rounded-0 border-0">
+                                        <li><a class="dropdown-item py-2" href="#">Deep Dropdown 1</a></li>
+                                        <li><a class="dropdown-item py-2" href="#">Deep Dropdown 2</a></li>
+                                        <li><a class="dropdown-item py-2" href="#">Deep Dropdown 3</a></li>
+                                        <li><a class="dropdown-item py-2" href="#">Deep Dropdown 4</a></li>
+                                        <li><a class="dropdown-item py-2" href="#">Deep Dropdown 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item py-2" href="#">Dropdown 2</a></li>
+                                <li><a class="dropdown-item py-2" href="#">Dropdown 3</a></li>
+                                <li><a class="dropdown-item py-2" href="#">Dropdown 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  me-1 px-3 py-2" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="home " id="home">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/1.jpg" class=" w-100 h-100 " alt="...">
+                    <div class="carousel-caption  d-md-bloc ">
+                        <h3 class="p-2">Welcome to Shuffle</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <a href="#" class="px-4 py-2 rounded-5"> Get Started</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/2.jpg" class=" w-100 h-100 " alt="...">
+                    <div class="carousel-caption  d-md-bloc ">
+                        <h3 class="p-2">At vero eos et accusamus</h3>
+                        <p class="text-start">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                            impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
+                            omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut. </p>
+                        <a href="#" class="px-4 py-2 rounded-5"> Get Started</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/3.jpg" class=" w-100 h-100 " alt="...">
+                    <div class="carousel-caption  d-md-bloc ">
+                        <h3 class="p-2 ">Temporibus autem quibusdam</h3>
+                        <p class="text-start">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                            ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                        <a href="#" class="px-4 py-2 rounded-5"> Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section class="about " id="about">
+        <div class="container">
+            <h2>About</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="about-content row py-3">
+                <div class="about-info order-2 order-lg-1 col-md-12  col-lg-6  pe-lg-3 ">
+                    <h3>Voluptatem dignissimos provident quasi corporis</h3>
+                    <p id="p-uniq">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <p><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                    <p><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
+                        nulla pariatur.</p>
+                    <a href="#"> Read More <i class="bi-arrow-right"></i></a>
+                </div>
+                <div class="about-img order-1 order-lg-2 col-md-12 col-lg-6">
+                    <img src="assets/images/about.jpg" style="width: 100%;" alt="..">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="range ">
+        <div class="container ">
+            <div class="row items gy-4">
+                <div class="range-item col-lg-3 col-md-6  ">
+                    <div class="icon col-2">
+                        <i class="h1 bi-emoji-smile"></i>
+                    </div>
+                    <div class="range-info col-8">
+                        <h3>232</h3>
+                        <strong>Happy Clients</strong>
+                        <span>consequuntur quae </span>
+                    </div>
+                </div>
+                <div class="range-item col-lg-3 col-md-6  ">
+                    <div class="icon col-2">
+                        <i class="h1 bi bi-journal-richtext"></i>
+                    </div>
+                    <div class="range-info col-8">
+                        <h3>521</h3>
+                        <strong>Projects </strong>
+                        <span>adipisci atque cum quia aut </span>
+                    </div>
+                </div>
+                <div class="range-item col-lg-3 col-md-6  ">
+                    <div class="icon col-2">
+                        <i class="h1 bi bi-headset"></i>
+                    </div>
+                    <div class="range-info col-8">
+                        <h3>1453</h3>
+                        <strong>Hours Of Support</strong>
+                        <span>aut commodi quaerat </span>
+                    </div>
+                </div>
+                <div class="range-item col-lg-3 col-md-6  ">
+                    <div class="icon col-2">
+                        <i class="h1 bi-people"></i>
+                    </div>
+                    <div class="range-info col-8">
+                        <h3>32</h3>
+                        <strong>Hard Workers</strong>
+                        <span>rerum asperiores dolor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="row items gy-4">
+                <div class="service-item col-xl-3 col-md-6 ">
+                    
+                    <div class="serve">
+                        <div class="overlay"></div>
+                        <i class="h1 bi bi-activity icon"></i>
+                        <h4>Lorem Ipsum</h4>
+                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+                <div class="service-item col-xl-3 col-md-6  ">
+                    <div class="serve">
+                        <div class="overlay"></div>
+                        <i class="h1 bi bi-bounding-box-circles"></i>
+                        <h4>Set ut Perspici</h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                    </div>
+                </div>
+                <div class="service-item col-xl-3 col-md-6  ">
+                    <div class="serve">
+                        <div class="overlay"></div>
+                        <i class="h1 bi bi-calendar4-week icon"></i>
+                        <h4>Magni Dolores</h4>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                    </div>
+                </div>
+                <div class="service-item col-xl-3 col-md-6  ">
+                    <div class="serve">
+                        <div class="overlay"></div>
+                        <i class="h1 bi bi-broadcast icon"></i>
+                        <h4>Nemo Enim</h4>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="action">
+        <div class="container">
+            <h3>Call To Action</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+            <a class="px-5 py-3 rounded-5" href="#">Call To Action</a>
+        </div>
+    </section>
+
+    <section class="more-services">
+        <div class="container ">
+            <h2>More Services</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="row items gy-4">
+                <div class="service-item col-xl-4 col-md-6 ">
+                    <div class="serve">
+                        <img src="assets/images/more-service-1.jpg" alt="..">
+                        <h3>Ad cupiditate sed est odio</h3>
+                        <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/more-service-2.jpg" alt="..">
+                        <h3>Voluptatem voluptatum alias</h3>
+                        <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img class="img-fluid" src="assets/images/more-service-3.jpg" alt="..">
+                        <h3>Fugit cupiditate alias nobis.</h3>
+                        <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portoflio" id="portoflio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">App</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Branding</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ">Books</a>
+                </li>
+            </ul>
+            <div class="row items gy-4">
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/app-1.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">App 1</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/product-1.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Product 1</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/branding-1.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Branding 1</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/books-1.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Book 1</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/app-2.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">App 2</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/product-2.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Product 2</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/branding-2.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Branding 2</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/books-2.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Book 2</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/app-3.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">App 3</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/product-3.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Product 3</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/branding-3.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Branding 3</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item col-xl-4 col-md-6  ">
+                    <div class="serve">
+                        <img src="assets/images/books-3.jpg" alt="..">
+                        <div class="overlay">
+                            <a href="#">Book 3</a>
+                            <div class="icons">
+                                <i class="bi-zoom-in"></i>
+                                <i class="bi-link-45deg"></i>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <section class="team" id="team">
+        <div class="container">
+            <h2>Team</h2>
+            <div class="row items gy-4">
+                <div class="team-item col-lg-3 col-md-6  ">
+                    <img src="assets/images/team-1.jpg" alt="00">
+                    <div class="overlay">
+                        <h4>Walter White</h4>
+                        <p>Chief Executive Officer</p>
+                        <div class="icons">
+                            <i class="bi-twitter"></i>
+                            <i class="bi-facebook"></i>
+                            <i class="bi-instagram"></i>
+                            <i class="bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item col-lg-3 col-md-6  ">
+                    <img src="assets/images/team-2.jpg" alt="00">
+                    <div class="overlay">
+                        <h4>Sarah Jhonson</h4>
+                        <p>Product Manager</p>
+                        <div class="icons">
+                            <i class="bi-twitter"></i>
+                            <i class="bi-facebook"></i>
+                            <i class="bi-instagram"></i>
+                            <i class="bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item col-lg-3 col-md-6  ">
+                    <img src="assets/images/team-3.jpg" alt="00">
+                    <div class="overlay">
+                        <h4>William Anderson</h4>
+                        <p>CTO</p>
+                        <div class="icons">
+                            <i class="bi-twitter"></i>
+                            <i class="bi-facebook"></i>
+                            <i class="bi-instagram"></i>
+                            <i class="bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-item col-lg-3 col-md-6  ">
+                    <img src="assets/images/team-4.jpg" alt="00">
+                    <div class="overlay">
+                        <h4>Amanda Jepson</h4>
+                        <p>Accountant</p>
+                        <div class="icons">
+                            <i class="bi-twitter"></i>
+                            <i class="bi-facebook"></i>
+                            <i class="bi-instagram"></i>
+                            <i class="bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="asked ">
+        <div class="container ">
+            <div class="row py-4">
+                <div class="col-lg-3  left-asked">
+                    <h3><span>Frequently Asked</span>
+                        <strong>Questions</strong>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                </div>
+                <div class=" ms-lg-auto col-lg-8 right-asked">
+                    <div class="col-12"> <span>1.</span> Non consectetur a erat nam at lectus urna duis? <i
+                            class="faq-toggle bi bi-chevron-right"></i> </div>
+                    <div class="col-12"> <span>2.</span> Feugiat scelerisque varius morbi enim nunc faucibus a
+                        pellentesque? <i class="faq-toggle bi bi-chevron-right"></i> </div>
+                    <div class="col-12"> <span>3.</span> Dolor sit amet consectetur adipiscing elit pellentesque? <i
+                            class="faq-toggle bi bi-chevron-right"></i> </div>
+                    <div class="col-12"> <span>4.</span> Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i
+                            class="faq-toggle bi bi-chevron-right"></i> </div>
+                    <div class="col-12"> <span>5.</span> Tempus quam pellentesque nec nam aliquam sem et tortor
+                        consequat? <i class="faq-toggle bi bi-chevron-right"></i> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="row py-4">
+                <div class="left-contact col-lg-6">
+                    <div class="row">
+                        <div class="service-item  col-lg-6 ">
+                            <div class="serve">
+                                <i class=" h1 bi-geo-alt"></i>
+                                <h4>Address</h4>
+                                <p>A108 Adam Street</p>
+                                <p>New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="service-item  col-lg-6 ">
+                            <div class="serve">
+                                <i class=" h1 bi-telephone"></i>
+                                <h4>Call Us</h4>
+                                <p>+1 5589 55488 55</p>
+                                <p>+1 6678 254445 41</p>
+                            </div>
+                        </div>
+                        <div class="service-item  col-lg-6 ">
+                            <div class="serve">
+                                <i class=" h1 bi-envelope"></i>
+                                <h4>Email Us</h4>
+                                <p>info@example.com</p>
+                                <p>contact@example.com</p>
+                            </div>
+                        </div>
+                        <div class="service-item  col-lg-6 ">
+                            <div class="serve">
+                                <i class=" h1 bi-clock"></i>
+                                <h4>Open Hours</h4>
+                                <p>Monday - Friday</p>
+                                <p>9:00AM - 05:00PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-contact col-lg-6">
+                    <form>
+                        <div class="form-group row">
+                            <div class="col-md-6 ">
+                                <input type="text" id="name" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" id="email" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-control" rows="6" placeholder="Message "></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-lg-5 info mb-4">
+                <h3>Shuffle</h3>
+                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <div class="icons">
+                <a><i class="bi-twitter"></i></a>
+                <a><i class="bi-facebook"></i></a>
+                <a><i class="bi-instagram"></i></a>
+                <a><i class="bi-linkedin"></i></a>
+            </div>
+            </div>
+            <div class="col-lg-2 links mb-2 ">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Terms of service</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 links mb-2">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Product Management</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 address mb-2">
+                <h4>Contact Us</h4>
+                <p>A108 Adam Street
+
+                    New York, NY 535022
+                    
+                    United States</p>
+                    <div class="info-con">
+                    <p><strong>Phone:</strong> +1 5589 55488 55</p>
+                    <p><strong>Email:</strong> info@example.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright text-center mt-4">
+            <p>© copyright<strong> Shuffle</strong> All Rights Reserved</p>
+            <div>Designed by <a href="#">Ranem Elnoury</a></div>
+        </div>
+    </div>
+</footer>
+    <div class="scroll-icon">
+        <a href="#home"><i class="bi-arrow-up-short"></i></a>
+        
+    </div>
+    <script>
+        window.onscroll = function () {
+            var scrollIcon = document.querySelector(".scroll-icon");
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollIcon.style.display = "block";
+            } else {
+                scrollIcon.style.display = "none";
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script> -->
+</body>
+
+</html>

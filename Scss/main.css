@@ -1,0 +1,848 @@
+body {
+  font-size: 1rem;
+  color: #1bbca3;
+}
+
+p {
+  color: #384f4b;
+}
+
+.home img {
+  width: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+  opacity: 0.8;
+}
+.home .carousel-item {
+  height: 100vh;
+}
+.home .carousel-item .carousel-caption {
+  position: absolute;
+  inset: 120px 64px 64px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 3;
+}
+.home .carousel-item .carousel-caption h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.home .carousel-item .carousel-caption p {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #ffffff;
+  max-width: 60%;
+}
+.home .carousel-item .carousel-caption a {
+  color: #ffffff !important;
+  background-color: #1bbca3;
+  letter-spacing: 1px;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.about h2 {
+  margin-block-start: 5%;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #444444;
+  text-align: center;
+}
+.about h2::before, .about h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #1bbca3;
+  display: inline-block;
+}
+.about h2::before {
+  margin: 0 15px 10px 0;
+}
+.about h2::after {
+  margin: 0 0 10px 15px;
+}
+.about p {
+  color: #444444;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+}
+.about .about-content {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 5%;
+}
+.about .about-content .about-info h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #444444;
+}
+.about .about-content .about-info #p-uniq {
+  text-align: left;
+  font-style: italic;
+  font-size: 0.98rem;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about .about-content .about-info p {
+  text-align: left;
+  font-size: 0.98rem;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.about .about-content .about-info i {
+  color: #1bbca3;
+}
+.about .about-content .about-info a {
+  color: #ffffff !important;
+  background-color: #1bbca3;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 2%;
+}
+.about .about-content .about-info a i {
+  margin-inline-start: 10px;
+  color: #ffffff;
+}
+
+.range {
+  margin-block-start: 4%;
+  background-color: #f2f5f4;
+}
+.range .items {
+  display: flex;
+  justify-content: center;
+}
+.range .items .range-item {
+  margin-block: 4%;
+  display: flex;
+}
+.range .items .range-item .icons i {
+  color: #1bbca3;
+}
+.range .items .range-item .range-info h3 {
+  color: #444444;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.9rem;
+}
+.range .items .range-item .range-info strong {
+  color: gray;
+  font-size: 1.1rem;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.range .items .range-item .range-info span {
+  color: gray;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.services h2 {
+  margin-block-start: 5%;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #444444;
+  text-align: center;
+}
+.services h2::before, .services h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #1bbca3;
+  display: inline-block;
+}
+.services h2::before {
+  margin: 0 15px 10px 0;
+}
+.services h2::after {
+  margin: 0 0 10px 15px;
+}
+.services p {
+  color: #444444;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+}
+.services .service-item {
+  position: relative;
+  margin-block-start: 4%;
+  overflow: hidden;
+}
+.services .service-item .serve {
+  position: relative;
+  background-color: #ffffff;
+  padding: 10% 6%;
+  cursor: pointer;
+  transition-delay: 0.1s;
+  z-index: 1;
+}
+.services .service-item .serve .overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1bbca3;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: bottom 0.3s ease;
+  z-index: 2;
+}
+.services .service-item .serve:hover .overlay {
+  bottom: 0%;
+}
+.services .service-item .serve i {
+  color: #1bbca3;
+}
+.services .service-item .serve h4 {
+  color: #444444;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 50px;
+}
+.services .service-item .serve p {
+  text-align: left;
+  font-size: 0.9rem;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.services .service-item .serve:hover h4,
+.services .service-item .serve:hover p,
+.services .service-item .serve:hover i {
+  position: relative;
+  z-index: 3;
+  color: #ffffff;
+  transition: color 0.3s ease-in-out;
+}
+
+.action {
+  background-image: url("../assets/images/cta-bg.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  padding: 5%;
+  margin-block-start: 4%;
+}
+.action h3 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 50px;
+}
+.action p {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #ffffff;
+  text-align: center;
+  margin-inline: 8%;
+  margin-block-end: 3%;
+}
+.action a {
+  color: #ffffff !important;
+  letter-spacing: 1px;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  border: 2px solid #1bbca3;
+  background-color: transparent;
+}
+.action a:hover {
+  background-color: #1bbca3;
+}
+
+.more-services h2 {
+  margin-block-start: 5%;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #444444;
+  text-align: center;
+}
+.more-services h2::before, .more-services h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #1bbca3;
+  display: inline-block;
+}
+.more-services h2::before {
+  margin: 0 15px 10px 0;
+}
+.more-services h2::after {
+  margin: 0 0 10px 15px;
+}
+.more-services p {
+  color: #444444;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+}
+.more-services .service-item {
+  margin-block-start: 4%;
+  padding: 0.8%;
+}
+.more-services .service-item .serve {
+  background-color: #ffffff;
+  padding: 5% 3%;
+  cursor: pointer;
+  transition-delay: 0.1s;
+  text-align: center;
+  border-radius: 2%;
+}
+.more-services .service-item .serve img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.more-services .service-item .serve img:hover {
+  transform: scale(0.9);
+}
+.more-services .service-item .serve h3 {
+  color: #444444;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+.more-services .service-item .serve p {
+  font-size: 1rem;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding: 0% 3%;
+}
+
+.portoflio h2 {
+  margin-block-start: 5%;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #444444;
+  text-align: center;
+}
+.portoflio h2::before, .portoflio h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #1bbca3;
+  display: inline-block;
+}
+.portoflio h2::before {
+  margin: 0 15px 10px 0;
+}
+.portoflio h2::after {
+  margin: 0 0 10px 15px;
+}
+.portoflio p {
+  color: #444444;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+}
+.portoflio ul {
+  margin-block-start: 4%;
+}
+.portoflio .nav-link {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #444444;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.portoflio .nav-link:hover {
+  color: #1bbca3;
+}
+.portoflio .nav-link.active {
+  color: #1bbca3;
+}
+.portoflio .service-item {
+  margin-block-start: 4%;
+  padding: 0.8%;
+}
+.portoflio .service-item .serve {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.portoflio .service-item .serve img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+.portoflio .service-item .serve img:hover {
+  transform: scale(1.2);
+}
+.portoflio .service-item .serve .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  padding: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+.portoflio .service-item .serve .overlay a {
+  color: #ffffff !important;
+  background-color: #1bbca3;
+  padding: 5px 10px;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+.portoflio .service-item .serve .overlay .icons {
+  display: flex;
+  gap: 10px;
+}
+.portoflio .service-item .serve .overlay .icons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.portoflio .service-item .serve .overlay .icons i:hover {
+  color: #1bbca3;
+}
+.portoflio .service-item .serve .overlay p {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+.portoflio .service-item .serve:hover .overlay {
+  opacity: 1;
+}
+
+.team h2 {
+  margin-block-start: 5%;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #444444;
+  text-align: center;
+}
+.team h2::before, .team h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #1bbca3;
+  display: inline-block;
+}
+.team h2::before {
+  margin: 0 15px 10px 0;
+}
+.team h2::after {
+  margin: 0 0 10px 15px;
+}
+.team .team-item {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  margin-block-start: 8%;
+}
+.team .team-item img {
+  width: 100%;
+  display: block;
+}
+.team .team-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  transform: scale(0.93, 1);
+}
+.team .team-item .overlay h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.team .team-item .overlay p {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.team .team-item .overlay .icons {
+  display: flex;
+  gap: 15px;
+}
+.team .team-item .overlay .icons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.team .team-item .overlay .icons i:hover {
+  color: #1bbca3;
+}
+.team .team-item:hover .overlay {
+  opacity: 1;
+}
+
+.scroll-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.scroll-icon a {
+  display: inline-block;
+  background-color: #1bbca3;
+  padding: 10px;
+  border-radius: 5%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-size: 2rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.scroll-icon a:hover {
+  background-color: rgba(27, 188, 163, 0.5803921569);
+  transform: scale(1.1);
+}
+.scroll-icon a:focus {
+  outline: none;
+}
+
+.asked {
+  margin-block-start: 4%;
+  background-color: #f2f5f4;
+  padding: 3% 0%;
+}
+.asked .left-asked h3 {
+  color: #384f4b;
+  font-family: "Inter", sans-serif;
+  padding: 0% 0% 0% 9%;
+  font-size: 2rem;
+}
+.asked .left-asked p {
+  color: rgba(141, 141, 141, 0.986);
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.9rem;
+  padding: 0% 0% 0% 9%;
+}
+.asked .right-asked div {
+  background-color: #ffffff;
+  margin: 0% 2% 1%;
+  padding: 2%;
+  font-size: 1.3rem;
+  color: #384f4b;
+  font-weight: 700;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+  cursor: pointer;
+}
+.asked .right-asked div span {
+  color: #1bbca3;
+}
+.asked .right-asked div i {
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: color 0.3s ease;
+}
+.asked .right-asked div i:hover {
+  color: #1bbca3;
+}
+.asked .right-asked div:hover {
+  color: #1bbca3;
+}
+
+.contact h2 {
+  margin-block-start: 5%;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  color: #444444;
+  text-align: center;
+}
+.contact h2::before, .contact h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #1bbca3;
+  display: inline-block;
+}
+.contact h2::before {
+  margin: 0 15px 10px 0;
+}
+.contact h2::after {
+  margin: 0 0 10px 15px;
+}
+.contact p {
+  color: #444444;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: center;
+}
+.contact .service-item {
+  margin-block-start: 1%;
+  padding: 2%;
+}
+.contact .service-item .serve {
+  background-color: #f2f5f4;
+  padding: 6% 6%;
+  cursor: pointer;
+  transition-delay: 0.1s;
+}
+.contact .service-item .serve i {
+  color: #1bbca3;
+}
+.contact .service-item .serve h4 {
+  color: #444444;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 50px;
+}
+.contact .service-item .serve p {
+  text-align: left;
+  font-size: 0.9rem;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 0.3;
+}
+.contact .right-contact {
+  margin-block-start: 1.5%;
+}
+.contact .right-contact form {
+  background-color: #f2f5f4;
+  padding: 5%;
+}
+.contact .right-contact form .form-group {
+  margin-block: 0% 3%;
+}
+.contact .right-contact form .form-group input, .contact .right-contact form .form-group textarea {
+  border-radius: 0%;
+  background-color: rgba(255, 255, 255, 0.281);
+  border-color: color-mix(in srgb, #444444, transparent 80%);
+}
+.contact .right-contact form .form-group input::-moz-placeholder, .contact .right-contact form .form-group textarea::-moz-placeholder {
+  color: rgba(141, 147, 152, 0.597);
+}
+.contact .right-contact form .form-group input::placeholder, .contact .right-contact form .form-group textarea::placeholder {
+  color: rgba(141, 147, 152, 0.597);
+}
+.contact .right-contact form .form-group input:focus, .contact .right-contact form .form-group textarea:focus {
+  border-color: #1bbca3;
+  outline: none;
+}
+.contact .right-contact button {
+  background-color: #1bbca3;
+  align-self: center;
+  padding: 2% 5%;
+  border-radius: 3%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-size: 1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+.contact .right-contact button:hover {
+  background-color: rgba(27, 188, 163, 0.5803921569);
+}
+
+.action {
+  background-image: url("../assets/images/cta-bg.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  padding: 5%;
+  margin-block-start: 4%;
+}
+.action h3 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 50px;
+}
+.action p {
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #ffffff;
+  text-align: center;
+  margin-inline: 8%;
+  margin-block-end: 3%;
+}
+.action a {
+  color: #ffffff !important;
+  letter-spacing: 1px;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  border: 2px solid #1bbca3;
+  background-color: transparent;
+}
+.action a:hover {
+  background-color: #1bbca3;
+}
+
+footer {
+  background-color: #0e1a18;
+  margin-block-start: 3%;
+  padding: 2%;
+}
+footer h4 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-block-end: 8%;
+}
+footer .info {
+  color: #ffffff;
+}
+footer .info h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-block-end: 4%;
+}
+footer .info p {
+  color: #ffffff;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.98rem;
+  margin-block-end: 5%;
+}
+footer .info .icons a {
+  border-radius: 50%;
+  border: 1px solid gray;
+  background-color: transparent;
+  padding: 3%;
+  color: gray;
+  margin-inline-end: 2%;
+  cursor: pointer;
+}
+footer .info .icons a:hover {
+  color: #1bbca3;
+  border-color: #1bbca3;
+}
+footer .links {
+  text-align: left;
+  padding: 0% 0% 0% 4%;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+footer ul li {
+  text-align: left;
+  display: block;
+}
+footer ul li a {
+  text-decoration: none;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.8);
+}
+footer ul li a:hover {
+  color: #1bbca3;
+}
+footer .address {
+  padding: 0% 0% 0% 4%;
+}
+footer .address p {
+  color: #ffffff;
+  font-size: 0.9rem;
+  width: 70%;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+footer .address .info-con {
+  margin-block-start: 11%;
+}
+footer .address .info-con p {
+  line-height: 0.5;
+}
+footer .copyright {
+  background-color: rgba(37, 42, 41, 0.7137254902);
+  padding: 2%;
+  color: #ffffff;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+footer .copyright i, footer .copyright p {
+  color: #ffffff;
+  word-spacing: 3px;
+}
+footer .copyright a {
+  color: #1bbca3 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+}
+
+header {
+  height: auto;
+  background-color: white !important;
+  font-family: "Poppins", sans-serif;
+}
+header .navbar-brand {
+  color: #384f4b;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+header .nav-link {
+  color: #384f4b;
+  font-size: 1.1rem;
+  margin-inline-end: 10%;
+}
+header .nav-link:hover {
+  color: #ffffff !important;
+  background-color: #1bbca3;
+}
+header .nav-link.active {
+  color: #ffffff !important;
+  background-color: #1bbca3;
+}
+header .nav-item.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+header .dropdown-submenu {
+  position: relative;
+}
+header .dropdown-submenu .dropdown-menu {
+  top: 0;
+  right: 100%;
+  border: 0s;
+  transition: 0.5s ease;
+}
+header .dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+header .dropdown-menu .dropdown-item:hover {
+  color: #ffffff !important;
+  background-color: #1bbca3;
+}
+
+.base-btn {
+  border-radius: 5px;
+  border: 1px solid #1bbca3;
+  padding-inline: 10px;
+  padding-block: 8px;
+}/*# sourceMappingURL=main.css.map */
